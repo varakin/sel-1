@@ -22,7 +22,7 @@ def test_example(driver):
     driver.find_element_by_id("doc-logotype").click()
     driver.find_element_by_tag_name("h1")
 
-    driver.find_element_by_xpath("(//li[@id='app-']/a/span[2])[2]").click() #Catalog
+    driver.find_element_by_xpath("(//li[@id='app-']/a/span[2])[2]").click() #Catalogqw
     driver.find_element_by_id("doc-catalog").click()
     driver.find_element_by_tag_name("h1")
     driver.find_element_by_id("doc-product_groups").click()
